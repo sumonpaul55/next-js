@@ -1,11 +1,13 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 
-const page = () => {
+const HomePage = () => {
+  const [counter, setCounter] = useState(0)
   return (
     <div>
-      hellow world
+      hello world
     </div>
   );
 };
 
-export default page;
+export default HomePage;
