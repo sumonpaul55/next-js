@@ -1,11 +1,11 @@
-"use client"
-import React, { useState } from 'react';
+import Counter from "@/components/counter/Counter";
+
 
 const HomePage = () => {
-  const [counter, setCounter] = useState(0)
+  // console.log(counter)
   return (
     <div>
-      hello world
+      <Counter />
     </div>
   );
 };
