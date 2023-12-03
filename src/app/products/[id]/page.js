@@ -1,9 +1,10 @@
 import React from 'react';
 
-const DynamicPage = () => {
+const DynamicPage = ({ params }) => {
+    // console.log(params)
     return (
         <div>
-            this is dynamic page
+            <h2>this is dynamic page {params.id}</h2>
         </div>
     );
 };
