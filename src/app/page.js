@@ -1,5 +1,5 @@
 import Counter from "@/components/counter/Counter";
-
+import "./globals.css"
 
 const HomePage = () => {
   // console.log(counter)
